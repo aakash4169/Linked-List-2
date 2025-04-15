@@ -1,7 +1,15 @@
+// Time Complexity : O(m+n)
+// Space Complexity :O(1)
+// Did this code successfully run on Leetcode :
+// Any problem you faced while coding this :
+
+
 /*
-*
-*
-*
+ It uses two pointers, each starting at the head of one list, and traverses both lists switching
+ to the other list’s head upon reaching the end. This ensures both pointers travel equal distances
+ by the time they either meet at the intersection or reach the end. If the pointers meet,
+ that node is returned as the intersection; otherwise, null is returned.
+ The solution runs in O(m + n) time and uses O(1) space, where m and n are the lengths of the two lists.
 * */
 
 
